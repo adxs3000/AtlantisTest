@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "atlantis-test-bucket-adkd"
+  bucket = "atlantis-test-bucket-adkd-12345"
   acl    = "private"
 }
